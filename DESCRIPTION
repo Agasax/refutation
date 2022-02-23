@@ -1,14 +1,19 @@
 Package: refutation
-Type: Package
-Title: Refutation sample size estimation for randomised trials
-Version: 0.1.0
-Author: Arthur M. Albuquerque
-        Lars Mølgaard Saxhaug
-        Fernando Zampieri
-        Iucas Tramujas
-Maintainer: Lars Mølgaard Saxhaug <lars.saxhaug@gmail.com>
-Description: Refutation sample size estimationl
+Title: Refutation Sample Size Estimation for Randomised Trials
+Version: 0.0.0.9000
+Authors@R: c(
+    person("Arthur","Albuqurque",email = "arthur_albuquerque1@yahoo.com", role = "aut"),
+    person("Lars Mølgaard", "Saxhaug", email = "lars.saxhaug@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-5084-1578")),
+    person("Fernando","Zampieri",email = "fgzampieri@gmail.com",role = "aut"),
+    person("Lucas","Tramujas",email = "lucas_tramujas@hotmail.com", role = "aut")
+           )
+Description: What the package does (one paragraph).
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
+Imports: 
+    dplyr,
+    purrr
