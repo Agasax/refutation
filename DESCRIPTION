@@ -17,3 +17,5 @@ RoxygenNote: 7.1.2
 Imports: 
     dplyr,
     purrr
+URL: https://github.com/Agasax/refutation
+BugReports: https://github.com/Agasax/refutation/issues
